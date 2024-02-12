@@ -22,6 +22,29 @@ body {
   transition: 0.3s;
 }
 
+p {
+  color: #556070 !important;
+}
+
+@media (max-width: 767px) {
+  .d-flex {
+    flex-wrap: wrap !important;
+  }
+  .blk.w-50, .card-act.w-50, .port.w-50 {
+    width: 100% !important;
+  }
+  .dell .p-set {
+    position: relative;
+    top: 0px;
+    z-index: 9999;
+  }
+  .d-hide {
+    display: none;
+  }
+  footer .justify-content-between {
+    justify-content: center !important;
+  }
+}
 .testimonial {
   padding: 20px;
 }
